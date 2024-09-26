@@ -1,0 +1,88 @@
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Popup Container */
+.popup-container {
+    font-family: Arial, sans-serif;
+    width: 300px; /* Set the width of the popup */
+    padding: 20px; /* Add some padding */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Title Styles */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 15px 0 10px 0;
+}
+
+/* Language List */
+ul {
+    list-style-type: none; /* Remove bullets from list */
+    padding-left: 0; /* Remove default padding */
+}
+
+li {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    padding: 10px;
+    transition: background-color 0.2s; /* Smooth background color transition */
+}
+
+li:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+}
+
+/* Snippet List */
+pre {
+    background-color: #f8f8f8; /* Light background for code snippets */
+    padding: 10px; /* Padding around the code */
+    border-radius: 4px; /* Rounded corners */
+    overflow-x: auto; /* Scrollable if content is too wide */
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px 12px; /* Padding */
+    cursor: pointer; /* Change cursor to pointer */
+    margin-top: 10px; /* Margin for spacing */
+    transition: background-color 0.2s; /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Form Styles */
+.add-snippet-form {
+    margin-top: 20px; /* Space above the form */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column direction */
+}
+
+input, textarea, select {
+    margin-top: 5px; /* Space above inputs */
+    padding: 8px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 60px; /* Minimum height */
+}
